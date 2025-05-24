@@ -1,82 +1,48 @@
-# README
+# LISEZ MOI
 
-HyperVoicing - Logiciel d'Aide à la Composition Musicale
-by CompoMusic
+Le logiciel HyperVoicing - Logiciel d'Aide à la Composition Musicale par CompoMusic (zic-lab).
 
-Le présent dépôt ne contient qu'un fichier d'aide, un fichier licence et le fichier msi d'installation du logiciel HyperVoicing.
-Pour télécharger ce fichier msi, aller dans la partie Release de ce dépôt.
+## Avant propos
+- Vous êtes ici dans la partie documentaire du logiciel HyperVoicing. Ce dépôt contient le manuel utilisateur de ce logiciel sous la forme d'un WIKI.
 
-Développé par : Compomusic
-Site Web : https://compomusic.fr
+- Le logiciel HyperVoicing présenté ici est initialement destiné à une utilisation personnelle de son auteur. Mais les possibilités d’Internet rendent incontournable leur partage avec celles et ceux qui pourraient se sentir intéressé(e)s par la démarche créative qu’il propose.
 
- ## Description
-HyperVoicing est un logiciel d'aide à la composition musicale et à la préproduction. 
-Il propose une piste d'accords avancée et des pistes Piano Roll, dotées d'une assistance à la composition unique. Son objectif : faciliter la création et la concrétisation d'idées musicales.
+- La parfaite stabilité de ce logiciel est garantie. De plus, il bénéficie d’une mise à jour régulière de maintenance.
+  
+- Le logiciel HyperVoicing est un logiciel musical de préproduction. C'est-à-dire que son but est d'aider le créateur à trouver des idées musicales. Bien qu'il permette d'obtenir des idées très abouties, il faut considérer que ces productions ne constituent qu'une première étape. Elles sont destinées à être reprises dans une DAW afin d'être enrichies à l'aide de tous les outils présents dans ces stations de travail.
 
-## Installation
-1. Téléchargez le fichier d'installation HyperVoicing.msi.
-2. Double-cliquez sur **HyperVoicing.msi** pour lancer l’installation.
-3. Suivez les instructions à l’écran pour installer le logiciel.
-4. Une fois installé, vous trouverez HyperVoicing dans le menu Démarrer ou sur le bureau.
+  
+## Architecture
+- HyperVoicing est constitué de différents modules permettant la conception d'un morceau de musique :
+  1. Piste Accords : définition d'accords par glisser/déposer dans des mesures à partir de sources théoriques.
+  2. Pistes PianoRoll : éditeurs claviers classiques qui intègrent une aide à la composition innovante.
+  3. Piste de Batterie : composée de différents patterns que l'on assigner librement dans les mesures du morceau
+  4. Table de mixage : assez simple car il s'agit seulement du mixage de volumes MIDI.
+  5. Préproduction : ce sont des moyens d'exports du projets sous forme de fichiers MIDI.
+  6. Grille de composition : permet de consigner les éléments théoriques fondamentaux d'une composition : des tonalités, des accords et des gammes positionnés dans les mesures.
 
-## Prérequis
-- Windows 10 ou supérieur (64 bits recommandé).
-- .NET Framework 4.8 (si nécessaire, l'installateur vous proposera de l'installer).
-- Connexion Internet pour certaines fonctionnalités optionnelles.
+## Spécificités
+- HyperVoicing a une particularité  : il passe par l'écriture pour intégrer l'utilisation d'éléments musicaux théoriques.
+  
+- On peut considérer que cette démarche est réellement innovante. Bien que la plupart des DAW intègrent aussi des éléments comme des pistes d'accords ou des systèmes de quantification mélodique, le logiciel HyperVoicing assiste plus en profondeur une démarche de création basée sur la théorie.
+  
+- Pour exemple :
+  1. les pistes d'accords intègrent des sources théoriques d'accords comme : des gammes d'accords, des modes Grecs, des cadences, des substitutions et des modulations. Un grand nombre de modèles de progression sont aussi proposées
+  2. les pistes PianoRoll intègrent des objets innovants appelés Calques MIDI. Ils consistent à coloriser les lignes d'un PianoRoll est fonction de gammes et d'accords à jouer sur des mesures. L'utilisateur est ainsi guidé dans l'écriture des notes.
+     
+## Plan du manuel
+  - Très logiquement le manuel utilisateur est organisé selon la hiérarchie suivante :
+    1. Page 1 : Présentation du logiciel
+    2. Page 2 : La piste d'Accords et la grille de composition
+    3. Page 3 : Les PianoRolls
+    4. Page 4 : L'éditeur de batterie
+    5. Page 5 : La grille de composition
+    6. Page 6 : La table de mixage
+    7. Page 7 : Les moyens d'export (préproduction)
+  
 
-## Problèmes connus
-- Si Windows affiche un message indiquant que le fichier est "potentiellement dangereux", 
-  cliquez sur **"Plus d'informations" > "Exécuter quand même"**. Le logiciel est sûr.
-- Certains antivirus peuvent bloquer l’installation. Ajoutez HyperVoicing à la liste 
-  des exclusions si nécessaire.
 
-## Licence
-Ce logiciel est distribué sous licence. Voir : https://compomusic.fr/licence/
-Il ne peut être redistribué sans autorisation.
 
-## Support
-Si vous avez des questions ou rencontrez un problème, veuillez consulter :
-- Site web : https://compomusic.fr
 
-Merci d'utiliser HyperVoicing ! 
+.fr
 
-# README
-
-HyperVoicing - Music Composition Software
-by CompoMusic
-
-Développé par : Compomusic
-Site Web : https://compomusic.fr
-
-## Description
-HyperVoicing is music composition and pre-production support software.
-It offers an advanced chord track and Piano Roll tracks, featuring unique composition assistance. Its aim: to make it easier to create and turn musical ideas into reality.
-This repository contains only a help file, a licence file and the msi file for installing the HyperVoicing software.
-To download this msi file, go to the Release section of this repository.
-
-## Installation
-1. Download the HyperVoicing.msi installation file.
-2. Double-click on **HyperVoicing.msi** to launch the installation.
-3. Follow the on-screen instructions to install the software.
-4. Once installed, you will find HyperVoicing in the Start menu or on the desktop.
-
-## Prerequisites
-- Windows 10 or higher (64-bit recommended).
-- .NET Framework 4.8 (if necessary, the installer will offer to install it).
-- Internet connection for certain optional features.
-
-## Known Problems
-- If Windows displays a message indicating that the file is "potentially dangerous",
-  click on **"More information" > "Run anyway "**. The software is safe.
-- Some anti-virus software may block installation. Add HyperVoicing to the list of
-  if necessary.
-
-## Licence
-This software is distributed under licence. See: https://compomusic.fr/licence/
-It may not be redistributed without authorisation.
-
-## Support
-If you have any questions or encounter a problem, please consult :
-- Website: https://compomusic.fr
-
-Thank you for using HyperVoicing!
